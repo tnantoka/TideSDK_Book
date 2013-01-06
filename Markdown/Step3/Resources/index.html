@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Markdown</title>
+  <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="fileList">
+    <ul class="list">
+    </ul>
+
+    <div class="footer">
+      <a href="#" class="add"><i class="icon-large icon-pencil"></i></a>
+      <a href="#" class="open"><i class="icon-large icon-file"></i></a>
+      <a href="#" class="remove"><i class="icon-large icon-trash"></i></a>
+    </div>
+  </div>
+
+  <div id="editor">
+    <textarea class="source"></textarea>
+    <div class="result">
+    </div>
+  </div>
+
+  <script src="lib/require.js" data-main="app/main"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Global */
+
+body {
+  background: #fff;
+  overflow: hidden; /* Disable scroll bounce */
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea:focus {
+  outline:none;
+}
+
+/* FileList */
+
+#fileList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 25%;
+  overflow: hidden;
+}
+
+#fileList .list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 30px;
+  overflow: auto;
+}
+
+#fileList .list li {
+  word-break: break-all;
+  margin: 4px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  border-radius: 4px;
+}
+
+#fileList .list li.current {
+  border: 1px solid #aaa;
+  -webkit-box-shadow: 0px 0px 3px #aaa;
+}
+
+#fileList .list li.current,
+#fileList .list li:hover {
+  background: #f0f0f0;
+}
+
+#fileList .list li > * {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#fileList .list li .name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+#fileList .list li .path {
+  color: #666;
+}
+
+#fileList .footer {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 0;
+  height: 30px;
+  font-size: 20px;
+}
+
+#fileList .footer a {
+  color: #666;
+}
+
+#fileList .footer a:hover {
+  color: #999;
+}
+
