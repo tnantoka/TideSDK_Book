@@ -21,7 +21,7 @@ $(function() {
       var files = dir.getDirectoryListing().map(function(file) {
         return file.name();
       });
-      files.unshift(path)
+      files.unshift(path);
       $result.html(files.join('\n  '));
     },
     'Write File': function() {
