@@ -36,7 +36,7 @@ $(function() {
     'Read File': function() {
       var path = '~/Desktop/TideSDK_Features.txt';
       var file = Ti.Filesystem.getFile(path);
-      var content = file.open().read().toString();
+      var content = file.read().toString();
       $result.html(path + '\n\n' + content);
     },
     'Add Menu': function() {
