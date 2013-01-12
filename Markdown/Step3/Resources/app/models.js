@@ -1,8 +1,7 @@
 'use strict';
 
 define([
-  'backbone',
-  'moment'
+  'backbone'
 ], function(Backbone) {
 
   var File = Backbone.Model.extend({

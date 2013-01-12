@@ -14,9 +14,6 @@ require.config({
     },
     'showdown': {
       exports: 'Showdown'
-    },
-    'moment': {
-      exports: 'moment'
     }
   },
   paths: {
@@ -24,7 +21,6 @@ require.config({
     'underscore': '../lib/underscore-min',
     'backbone': '../lib/backbone-min',
     'showdown': '../lib/showdown/showdown',
-    'moment': '../lib/moment.min',
     'text': '../lib/text'
   }
 });

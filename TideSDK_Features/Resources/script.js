@@ -84,7 +84,7 @@ $(function() {
         $result.html(this.responseText);
         console.log(this.responseText);
       };
-      client.open('GET',url);
+      client.open('GET', url);
       client.send();
     },
     'Show Notification': function() {
